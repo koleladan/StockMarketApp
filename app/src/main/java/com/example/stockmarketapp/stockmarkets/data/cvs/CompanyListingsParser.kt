@@ -37,3 +37,5 @@ class CompanyListingsParser @Inject constructor():CSVParser<CompanyListing> {
 
     }
 }
+
+//call this in the stockRepositoryImp
