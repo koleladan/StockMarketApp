@@ -23,6 +23,10 @@ class CompaniesViewModel  @Inject constructor(
 
     private var searchJob: Job? = null
 
+    init {
+        getCompanies()
+    }
+
     fun onEvent(event: CompaniesEvent){
         when(event){
             is CompaniesEvent.Refresh ->{
