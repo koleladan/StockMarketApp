@@ -11,7 +11,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.NavGraph
-import com.example.stockmarketapp.stockmarkets.presentation.companiesscreen.NavGraphs
+import com.example.stockmarketapp.stockmarkets.presentation.NavGraphs
 import com.example.stockmarketapp.ui.theme.StockMarketAppTheme
 import com.ramcosta.composedestinations.DestinationsNavHost
 import dagger.hilt.android.AndroidEntryPoint
