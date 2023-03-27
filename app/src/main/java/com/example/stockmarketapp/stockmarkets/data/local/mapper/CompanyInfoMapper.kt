@@ -5,11 +5,11 @@ import com.example.stockmarketapp.stockmarkets.domain.model.CompanyInfo
 
 fun CompanyInfoDto.toCompanyInfo():CompanyInfo{
     return CompanyInfo(
-        symbol = symbol?: "",
-        description = description?: "",
-        name = name?: "",
-        country = country?: "",
-        industry = industry?: ""
+        symbol = symbol ?: "",
+        description = description ?: "",
+        name = name ?: "",
+        country = country ?: "",
+        industry = industry ?: ""
 
     )
 
