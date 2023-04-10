@@ -13,7 +13,7 @@ import javax.inject.Singleton
 @Singleton
 class CompanyListingsParser @Inject constructor():CSVParser<CompanyListing> {
     override suspend fun  parse(stream: InputStream): List<CompanyListing> {
-       val csvReader = CSVReader(InputStreamReader(stream))
+        val csvReader = CSVReader(InputStreamReader(stream))
         return  withContext(Dispatchers.IO){
             csvReader
                 .readAll()
@@ -37,3 +37,5 @@ class CompanyListingsParser @Inject constructor():CSVParser<CompanyListing> {
 
     }
 }
+
+//call this in the stockRepositoryImp
