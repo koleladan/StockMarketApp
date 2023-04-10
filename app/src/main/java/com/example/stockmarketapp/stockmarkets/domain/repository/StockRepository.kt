@@ -24,4 +24,4 @@ interface StockRepository {
         symbol: String
     ): Resource<CompanyInfo>
 }
-//Then write the  repository implement in the repositoryImp package in the data package
+//Then write the  repository implement in the repositoryImp package in the data packageg
